@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="./css/first-css.css" rel="stylesheet" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<script type="text/javascript">
+	/*$(function() {
+    if (window.PIE) {
+        $('.rounded').each(function() {
+            PIE.attach(this);
+        });
+    }
+});*/
+	function disappear(){
+		document.getElementById("iinput").value = "";
+	}
+	function dis(){
+		document.getElementById("iinputS").value = "";
+	}
+	function appear(){
+		document.getElementById("iinput").value = "关键词";	
+	}
+	function app(){
+		document.getElementById("iinputS").value="雪地靴";
+	}
+</script>
+<body>
+	
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/vmc.slider.full.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('#slider').vmcSlider({
+				gridCol: 10,
+				gridRow: 5,
+				gridVertical: 20,
+				gridHorizontal: 10,
+				autoPlay: true,
+				ascending: true,
+				effects: [
+					'fade'
+				],
+				ie6Tidy: false,
+				random: false,
+				duration: 2000,
+				speed: 900
+			});
+		});
+	</script>
+<div class = "cont">
+	<div id = "header">
+			<div class = "header-one">
+				<div class = "one-img"><img src="./images/logo.png"></div>
+				<div class = "one-dao">
+					<ul>
+						<li class="fir"><a  href="file:./first.html">首页</a></li>
+						<li class = "docu"><a  href="file:./meun.html" >商品</a></li>
+						<li class="story"><a  href="file:./information.html">品牌故事</a></li>
+					</ul>
+				</div>
+				<div class = "one-search">
+					<div><input id = "iinputS"value="雪地靴" onfocus="dis()" onblur="app()" /><img src="./images/search.png"></div>
+				</div>
+			</div>
+			<div class = "header-area">
+				<div class = "area-bg">
+					<ul>
+						<li class = "womanarea">女士专区
+							<div class = "girl">
+								<div class = "cloth">
+									<div class = "all" ><span>女士专区&</span><p>COTHING</p></div>
+									<div class = "cloth-yi">
+										<dl>
+											<dt>外套/大衣</dt>
+											<dt>棉衣/羽绒服</dt>
+											<dt>背心/马甲</dt>
+											<dt>上衣</dt>
+										</dl>
+									</div>
+								</div>
+								<div class = "bag">
+									<div class = "all" ><span>女包&</span><p>Bag</p></div>
+									<dl>
+										<dt>单肩包</dt>
+										<dt>斜挎包</dt>
+										<dt>双肩包</dt>
+										<dt>腰包</dt>
+									</dl>
+								</div>
+								<div class = "shoes">
+									<div class = "all" ><span>女鞋&</span><p>SHOES</p></div>
+									<dl>
+										<dt>休闲鞋</dt>
+										<dt>懒人鞋</dt>
+										<dt>帆布鞋</dt>
+										<dt>正装鞋</dt>
+										<dt>网棉鞋</dt>
+										<dt>马丁鞋</dt>
+										<dt>高帮鞋</dt>
+										<dt>雪地靴</dt>
+										<dt>运动鞋</dt>
+									</dl>
+								</div>
+							</div>
+						</li>
+						<li class = "boyarea">男士专区
+							<div class = "boy">
+								<div class = "cloth">
+									<div class = "all" ><span>男士专区&</span><p>COTHING</p></div>
+									<div class = "cloth-yi">
+										<dl>
+											<dt>外套/大衣</dt>
+											<dt>棉衣/羽绒服</dt>
+											<dt>背心/马甲</dt>
+											<dt>上衣</dt>
+										</dl>
+									</div>
+								</div>
+								<div class = "bag">
+									<div class = "all" ><span>男包&</span><p>Bag</p></div>
+									<dl>
+										<dt>单肩包</dt>
+										<dt>斜挎包</dt>
+										<dt>双肩包</dt>
+										<dt>腰包</dt>
+									</dl>
+								</div>
+								<div class = "shoes">
+									<div class = "all" ><span>男鞋&</span><p>SHOES</p></div>
+									<dl>
+										<dt>休闲鞋</dt>
+										<dt>懒人鞋</dt>
+										<dt>帆布鞋</dt>
+										<dt>正装鞋</dt>
+										<dt>网棉鞋</dt>
+										<dt>马丁鞋</dt>
+										<dt>高帮鞋</dt>
+										<dt>雪地靴</dt>
+										<dt>运动鞋</dt>
+									</dl>
+								</div>
+							</div>
+						</li>
+						<li class = "decarea">配饰
+							<div class = "dec">
+								<div class = "cloth">
+									<div class = "all" ><span>手饰专区&</span><p>Handing</p></div>
+									<div class = "cloth-yi">
+										<dl>
+											<dt>手链</dt>
+											<dt>手镯</dt>
+											<dt>戒指</dt>
+										</dl>
+									</div>
+								</div>
+								<div class = "bag">
+									<div class = "all" ><span>头饰&</span><p>Heading</p></div>
+									<dl>
+										<dt>头绳</dt>
+										<dt>发夹</dt>
+										<dt>发箍</dt>
+										<dt>头巾</dt>
+									</dl>
+								</div>
+								<div class = "shoes">
+									<div class = "all" ><span>手表&</span><p>Watches</p></div>
+									<dl>
+										<dt>女表</dt>
+										<dt>男表</dt>
+										<dt>学生表</dt>
+										<dt>机械表</dt>
+										<dt>运动手表</dt>
+										<dt>石英表</dt>
+										<dt>情侣表</dt>
+										<dt>儿童表</dt>
+										<dt>陶瓷表</dt>
+									</dl>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+		
+				<div class = "area-shop">
+					<img src="./images/talk.png">
+					<span class = "shopW">联系客服</span>
+					<img src="./images/cart.png">
+					<span class = "hao">(<span id = "numm">0</span class = "hao">)</span>
+				</div>
+			</div>
+			
+		</div>
+	<div class = "main">
+	<div class="content"id="sliderContent"style="overflow:hidden;margin:0px auto;height:500px;">
+				<div class="slider-font-images"><img src="./images/新品上市.png
+				"></div>
+				<div id="slider">
+					<a href="#"><img src="./images/bg.jpg"/id="sliderimageFirst" style=" height:800px;"></a>
+					<a href="#"><img src="./images/hhq.png" style=" height:500px;"id="sliderimageSecond"/></a>
+
+					<a href="#"><img src="./images/bg.jpg" style=" height:800px;"id="sliderimageThird"/></a>
+				</div>
+			</div>
+			<script>
+				window.onload=function fun(){
+					var af=document.getElementById("sliderimageFirst");
+					var ase=document.getElementById("sliderimageSecond");
+					var at=document.getElementById("sliderimageThird");
+					var b=document.documentElement.scrollWidth;
+					af.style.width=b+"px";
+					ase.style.width=b+"px";
+					at.style.width=b+"px";
+					var c=document.getElementById("sliderContent");
+					c.style.width=b+"px";	
+			}
+			</script>
+		<div class="title">
+				<img  src="./images/10.png" class = "line">
+				<img src="./images/clock.png" class = "fire">
+				<span>限时折扣</span>
+				<img src="./images/11.png" class = "line">
+			</div>
+		<div class = "limit">
+			
+			<div class = "limitLeft">
+				<div class = "limitWei">
+					<a href="#">
+						<img src="./images/wei.png">
+						<div class = "wei">
+							<h1>羊毛围巾</h1>
+							<span>冬季新品</span>
+						</div>
+						<div class = "wordWei">
+							<span>原价：86￥</span>
+							<h1>现价：30￥</h1>
+						</div>
+					</a>
+				</div>
+				<div class = "limitLightDown">
+					<div class = "limitSkirt">
+						<a href="#">
+							<div class = "shirt">
+								<h1>秋款甜美短裙</h1>
+								<span>低腰学院风伞裙</span>
+							</div>
+							<div class = "wordShirt">
+								<span>原价：126￥</span>
+								<h1>现价：81￥</h1>
+							</div>
+							<img src="./images/dress.png">
+
+						</a>
+					</div>
+					<div class = "limitCup">
+						<a href="#">
+							<img src="./images/cup.png">
+							<div class="cupp">
+								<h1>帽子</h1>
+								<span>简约大方</span>
+							</div>
+							<div class="wordC">
+								<span>原价： 96￥</span>
+								<h1>现价： 39￥</h1>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class = "limitRight">
+				<div class = "limitShoes">
+					<a href="#">
+						<img src="./images/shose.png">
+						<div class="sho">
+							<h1>低帮鞋</h1>
+							<span>简约大方</span>
+						</div>
+						<div class = "word1">
+							<span>原价：99￥</span>
+							<h1>现价：56￥</h1>
+						</div>
+					</a>
+				</div>
+				<div class = "time">
+					<p>折扣价倒计时</p>
+					<p>
+						<span id = "hour">00 : </span>
+						<span id = "min">00 : </span>
+						<span id = "second">00</span>
+					</p>
+					<script type="text/javascript">
+					function GetRTime(){
+    					var EndTime= new Date('2017/12/20 00:00:00');
+    					var NowTime = new Date();
+   						 var t =EndTime.getTime() - NowTime.getTime();
+    					var d=0;
+    					var h=0;
+    					var m=0;
+    					var s=0;
+    					if(t>=0){
+     			 			d=Math.floor(t/1000/60/60/24);
+      						h=Math.floor(t/1000/60/60%24);
+      						m=Math.floor(t/1000/60%60);
+      						s=Math.floor(t/1000%60);
+    					}
+    					document.getElementById("hour").innerHTML = h + " :";
+    					document.getElementById("min").innerHTML = m + " :";
+    					document.getElementById("second").innerHTML = s ;
+  					}
+  					setInterval(GetRTime,0);
+					</script>
+					
+					<a>更多折扣价 >></a>
+				</div>
+			</div>
+		</div>
+		<div class="title">
+				<img  src="./images/10.png" class = "line">
+				<img src="./images/newp.png" class = "fire">
+				<span>最新单品</span>
+				<img src="./images/11.png" class = "line">
+			</div>
+		<div class = "new">
+			
+			<div class = "newLeft">
+				<a>
+					<div class="wqItem8"> 
+                  		<img src="./images/pic5.png" /> 
+              		</div>
+					<div class = "more8">
+              						更多详情
+              		</div>
+              		<div class="detail8">
+                		<div class = "wqName">
+                 			<span>￥199.00</span>
+                 			<img src="./images/cart.png">  
+                		</div>
+             	 	</div>
+				</a>
+				<a>
+					<div class="wqItem7"> 
+                  		<img src="./images/pic6.png" /> 
+              		</div>
+					<div class = "more7">
+              						更多详情
+              		</div>
+              		<div class="detail7">
+                		<div class = "wqName">
+                 			<span>￥199.00</span>
+                 			<img src="./images/cart.png">  
+                		</div>
+             	 	</div>
+				</a>
+			</div>
+			<div class = "newMiddle">
+				<a>
+					<div class="wqItem6"> 
+                  		<img src="./images/pic7.png" /> 
+              		</div>
+					<div class = "more6">
+              						详情信息
+              		</div>
+              		<div class="detail6">
+                		<div class = "wqName">
+                 			<span>￥199.00</span>
+                 			<img src="./images/cart.png">  
+                		</div>
+             	 	</div>
+				</a>
+			</div>
+			<div class = "newRight">
+				<a>
+					<div class="wqItem5"> 
+                  		<img src="./images/pic8.png" /> 
+              		</div>
+					<div class = "more5">
+              						更多详情
+              		</div>
+              		<div class="detail5">
+                		<div class = "wqName">
+                 			<span>￥199.00</span>
+                 			<img src="./images/cart.png">  
+                		</div>
+             	 	</div>
+				</a>
+				<div id="test1"><p>more</p></div>
+			</div>
+		</div>
+		<div class="title">
+				<img  src="./images/10.png" class = "line">
+				<img src="./images/hotp.png" class = "fire">
+				<span>人气商品</span>
+				<img src="./images/11.png" class = "line">
+			</div>
+		<div class = "hot">
+			
+			<div class = "titleImag">
+				<div class = "titleLeft">
+					<a href="#">
+						<div class="wqItem"> 
+                  				<img src="./images/pic1.png" class="wqPic" /> 
+              				</div>
+						<div class = "more">
+              						更多详情
+              				</div>
+              				<div class="detail">
+                				<div class = "wqName">
+                 					<span>￥199.00</span>
+                 					<img src="./images/cart.png">  
+                				</div>
+             	 			</div>
+					</a>
+					<a href="#">
+						<div class="wqItem2"> 
+                  				<img src="./images/pic2.png" class="wqPic2" /> 
+              				</div>
+						<div class = "more2">
+              						更多详情
+              				</div>
+              				<div class="detail2">
+                				<div class = "wqName">
+                 					<span>￥199.00</span>
+                 					<img src="./images/cart.png">  
+                				</div>
+             	 			</div>
+					</a>
+				</div>
+				<div class = "titleMiddle">
+					<a href="#">
+						<div class="wqItem3"> 
+                  				<img src="./images/pic3.png" /> 
+              				</div>
+						<div class = "more3">
+              						更多详情
+              				</div>
+              				<div class="detail3">
+                				<div class = "wqName">
+                 					<span>￥199.00</span>
+                 					<img src="./images/cart.png">  
+                				</div>
+             	 			</div>
+					</a>
+				</div>
+				<div class = "titleRight">
+					<a href="#">
+						<div class="wqItem4"> 
+                  				<img src="./images/pic4.png" /> 
+              				</div>
+              				 <div class = "more4">
+              						更多详情
+              				</div> 
+              				<div class="detail4">
+                				<div class = "wqName">
+                 					<span>￥199.00</span>
+                 					<img src="./images/cart.png">  
+                				</div>
+             	 			</div>
+					</a>
+					<div class = "more">
+						<div id="test2"><p>more</p></div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "footer">
+		<p>CopyRight © 2011 hotwind. AllRights Reserved 苏ICP备11046358号</p>
+	</div>
+</div>
+	
+
+</body>
+</html>
+
+
